@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {color: gray;
+    background: yellow;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {color: gray;
+    background: orange;
+    width: 25%;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.content {color: gray;
+    background: pink;
+    width: 75%;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.footer {
+    background: brown;
+    padding: 20px;
+    font-size: 18px;
+    color:gray;
+    width: 100%;
+}
